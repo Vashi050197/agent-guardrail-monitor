@@ -1,0 +1,12 @@
+{
+  "name": "Agent Guardrail Monitor",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "python3 main.py --simulate",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "Guardrail Dashboard",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}

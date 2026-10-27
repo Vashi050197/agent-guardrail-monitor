@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: agent-guardrail-monitor
+    env: python
+    buildCommand: "python3 main.py --simulate"
+    startCommand: "python3 server.py"
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 10000
