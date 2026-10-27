@@ -16,7 +16,7 @@ license: mit
 [![Database](https://img.shields.io/badge/Database-SQLite-lightgrey.svg)](https://www.sqlite.org/)
 [![Paper](https://img.shields.io/badge/Research-ICLR%202026-red.svg)](https://proceedings.iclr.cc/paper_files/paper/2026/file/7e105e4ae3016974e2d518e9d281f5e5-Paper-Conference.pdf)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Vashi050197/agent-guardrail-monitor)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com)
 
 > **Implementation of ICLR 2026 Research:** *"Reliable Weak-to-Strong Monitoring of LLM Agents"* (Scale AI, CMU, MIT).
