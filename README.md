@@ -1,3 +1,15 @@
+---
+title: Agent Guardrail & Observability (Weak-to-Strong)
+emoji: 🛡️
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 5.6.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
 # Reliable Weak-to-Strong LLM Agent Guardrail & Observability System
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
