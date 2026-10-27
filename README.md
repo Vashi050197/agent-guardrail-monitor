@@ -4,10 +4,24 @@
 [![Database](https://img.shields.io/badge/Database-SQLite-lightgrey.svg)](https://www.sqlite.org/)
 [![Paper](https://img.shields.io/badge/Research-ICLR%202026-red.svg)](https://proceedings.iclr.cc/paper_files/paper/2026/file/7e105e4ae3016974e2d518e9d281f5e5-Paper-Conference.pdf)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com)
 
 > **Implementation of ICLR 2026 Research:** *"Reliable Weak-to-Strong Monitoring of LLM Agents"* (Scale AI, CMU, MIT).
 
 A production-grade AI safety and real-time observability framework designed to supervise autonomous LLM agents. It demonstrates how a lightweight, low-cost model (e.g., **Claude 3.5 Haiku**, **GPT-4o-mini**, or **Gemini Flash**) can reliably detect covert sabotage, prompt injection (Monitor Hijacking), and Chain-of-Thought (CoT) obfuscation in advanced frontier models (e.g., **Claude Sonnet 4**).
+
+---
+
+## 🌐 Instant Validation for Recruiters & Hiring Managers
+
+There are three zero-hassle ways for technical reviewers to inspect and run this project:
+
+| Method | What HR / Reviewer Does | Setup Required |
+| :--- | :--- | :--- |
+| **1. 1-Click Cloud IDE (Codespaces)** | Click the **"Open in GitHub Codespaces"** badge at the top. Opens a full VS Code Linux terminal in their browser and runs `python3 main.py --simulate`. | **None (Zero install)** |
+| **2. Free Live Web Server (Render/Vercel)** | Click the live demo link to interact with the real-time telemetry dashboard. | **None (Instant link)** |
+| **3. Local Run (Zero-Dependency)** | Clone repo and run `python3 main.py --simulate`. | **Standard Python 3** |
 
 ---
 
